@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Pitha Khawar Form</title>
+</head>
+
+<body>
+    <header>
+        <h1>Welcome To <span class="word-color">PITHA UTSHOB</span></h1>
+    </header>
+    <main>
+        <section class="first-section">
+            <h1>Fill Up This Form To <span class="word-color">Eat PITHA</span></h1>
+            <form>
+                <label for="name">Your Name:
+                    <input type="text" name="" id="name" placeholder="Your Name">
+                </label>
+                <label for="email">Your Email:
+                    <input type="email" id="email" placeholder="Your Email Address">
+                </label>
+                <label for="phone">Your Mobile Number:
+                    <input type="number" name="" id="phone" placeholder="Mobile Number">
+                </label>
+                <fieldset>
+                    <legend><b>Pick One or more Item</b></legend>
+                    <label for="bhapa">
+                        <input type="checkbox" name="pitha" id="bhapa">Bhapa Pitha
+                    </label>
+                    <label for="chitoy">
+                        <input type="checkbox" name="pitha" id="chitoy">Chitoy Pitha
+                    </label>
+                    <label for="chas">
+                        <input type="checkbox" name="pitha" id="chas">Chas Er Pitha
+                    </label>
+                    <label for="chitka">
+                        <input type="checkbox" name="pitha" id="chitka">Chitka Pitha
+                    </label>
+                    <label for="amount">Amount of Pitha you want
+                        <input type="number" name="pitha-amount" id="pitha-amount" placeholder="Example: 10">
+
+                    </label>
+                </fieldset>
+
+                <fieldset>
+                    <legend><b>Pick Only One Item Sauce</b></legend>
+                    <label for="sorisa">
+                        <input type="radio" name="sauce" id="sorisa">Sorisa Sauce
+                    </label>
+                    <label for="tomato">
+                        <input type="radio" name="sauce" id="tomato">Tomato Sauce
+                    </label>
+                    <label for="chili">
+                        <input type="radio" name="sauce" id="chili">Chili Sauce
+                    </label>
+                </fieldset>
+                <fieldset>
+                    <legend><b>Special Instruction</b></legend>
+                    <textarea rows="2" cols="30"></textarea>
+                </fieldset>
+                <input type="submit" value="submit">
+                <input type="reset" value="reset">
+            </form>
+        </section>
+    </main>
+</body>
+
+</html>

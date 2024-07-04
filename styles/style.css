@@ -1,0 +1,48 @@
+*{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+header{
+    margin: 4%;
+}
+span{
+    color: blue;
+}
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:bolder;
+
+}
+label{
+    display: block;
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+fieldset{
+    border: 2px dotted blue;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px slateblue;
+    margin:5% 20%;
+}
+
+.first-section{
+    margin: 5% auto;
+    background-color:powderblue;
+    width: 600px;
+    padding: 20px;
+    border-radius: 50px;
+    box-shadow: 20px 20px 20px rgb(45, 45, 187);
+}
+
+textarea{
+    align-items: center;
+    padding-top: 20px;
+    background-color: powderblue;
+    border: 1px solid rgba(0, 0, 0, 0.425);
+    width: 100%;
+}
+input{
+    border: 5px solid rgb(136, 136, 238);
+    height: 25px;
+}
