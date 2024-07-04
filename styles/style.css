@@ -11,21 +11,26 @@ nav ul{
 nav li{
     list-style: none;
     margin: 10px auto;
-    /* margin-left: auto; */
     padding: 20px;
-    background-color: black;
+    cursor: pointer;
+    background-color: rgba(8, 192, 192, 0.774);
+    border-radius: 10px;
 }
 nav li:hover{
-    background-color: rgba(16, 129, 146, 0.932);
+    background-color:rgb(5, 155, 155);
+    border-radius: 20px;
 }
+
 nav li a{
     text-decoration: none;
-    color: aqua;
+    color: black;
+    font-size: large;
+    font-weight: 900;
 }
 
 header{
     /* background-color: rgba(31, 198, 236, 0.226); */
-    margin: 20px 200px 80px;
+    margin: 10px 200px 80px;
     border-radius: 50px;
 }
 .shadow{
