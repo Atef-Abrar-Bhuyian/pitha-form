@@ -61,3 +61,10 @@ input.btn{
     text-align: center;
     cursor: pointer;
 }
+input.btn:hover{
+    color: black;
+    background-color: rgb(136, 136, 238);
+    border: 5px solid black;
+    border-radius: 10px;
+    font-weight: 700;
+}
