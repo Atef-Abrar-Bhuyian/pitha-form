@@ -6,7 +6,7 @@
 header{
     margin: 4%;
 }
-header > h1{
+header > h1,.shadow{
     text-shadow: 0px 20px 8px black;
 }
 .word-color{
@@ -73,14 +73,28 @@ input.btn:hover{
     font-weight: 700;
 }
 table{
-    border-collapse: collapse;
+    /* border-collapse: collapse; */
+    margin: 20px auto;
 }
-
+th{
+    background-color: rgb(136, 136, 238);
+}
+td{
+    background-color: powderblue;
+}
 th,td,table{
-    padding: 10px 20px;
-    border: 1px solid black;
+    padding: 20px 80px;
+    /* border: 3px solid black; */
+    border-radius: 20px;
+    font-weight: 700;
+
 }
 .second-section{
     text-align: center;
     align-items: center;
+    /* margin-left: 2%; */
+    display: flex;
+}
+caption{
+    padding-bottom: 2%;
 }
